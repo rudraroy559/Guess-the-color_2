@@ -1,3 +1,7 @@
+import streamlit as st
+
+st.title("🎨 Guess Rudra's Favorite Color")
+
 fav_color = "blue"
 
 guess = st.text_input("What is Rudra's favorite color?")
