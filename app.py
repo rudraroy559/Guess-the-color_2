@@ -10,4 +10,4 @@ if st.button("Submit Guess"):
     if guess.lower() == fav_color.lower():
         st.success("🎉 You guessed correctly, Guru!")
     else:
-        st.error("❌তুমি একটা গাধা, গুরু!")
+        st.error("❌ Nope! Try again — তুমি একটা গাধা, গুরু! 🐴😄")
